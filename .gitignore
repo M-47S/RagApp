@@ -1,0 +1,4 @@
+/ssh-key/
+*.env
+!.env.example
+*.log
