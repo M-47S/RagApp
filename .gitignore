@@ -2,3 +2,6 @@
 *.env
 !.env.example
 *.log
+/testing/
+/LocalVolume/
+*/__pycache__/
