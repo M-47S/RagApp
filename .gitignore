@@ -4,4 +4,4 @@
 *.log
 /testing/
 /LocalVolume/
-*/__pycache__/
+**/__pycache__/
