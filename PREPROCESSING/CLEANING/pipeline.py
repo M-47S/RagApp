@@ -1,5 +1,6 @@
 # pipeline.py
 import os
+import sys
 import logging
 import datetime
 import re
@@ -87,8 +88,11 @@ if __name__ == "__main__":
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
-    
-    test_file = r"C:\Users\0\OneDrive\Desktop\RagApp\testing\universiry.html"
+
+    DEFAULT_TEST_FILE = r"C:\Users\0\OneDrive\Desktop\RagApp\testing\universiry.html"
+
+    # Если передан аргумент командной строки — берём его, иначе дефолт
+    test_file = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_TEST_FILE
     
     print("-" * 50)
     print(f"ТЕСТИРОВАНИЕ CLEANING")
