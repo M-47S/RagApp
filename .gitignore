@@ -6,3 +6,4 @@
 /LocalVolume/
 **/__pycache__/
 /rag_venv/
+**/multilingual-e5-large/

@@ -4,3 +4,5 @@ pymupdf4llm==2.0
 ftfy==6.3.1
 ruff==0.17.2
 llama-index==0.14.25
+llama-index-embeddings-huggingface==0.8.0
+sentence-transformers==6.2.0
